@@ -36,9 +36,20 @@ switch(age){
         } else {
             console.log("no is not divisible by 2 or 3")
         }
-*/
+
 
     // age greater than 18 function using ternary operator (?)
 
 let a = prompt();
 console.log(a >18? "YOu can drive" : "You cannot drive" );
+*/
+    // For loops concept
+let sum =0
+let n = prompt()
+n= Number.parseInt(n)
+for (let i = 0; i < n; i++){
+    sum += (i+1)
+    console.log((i+1), "+")
+
+}
+console.log("sum of first" + n + "natural numbers is" + sum)
