@@ -42,8 +42,9 @@ switch(age){
 
 let a = prompt();
 console.log(a >18? "YOu can drive" : "You cannot drive" );
-*/
-    // For loops concept
+
+    // For loops concept 
+    // Sum of N numbers
 let sum =0
 let n = prompt()
 n= Number.parseInt(n)
@@ -52,4 +53,30 @@ for (let i = 0; i < n; i++){
     console.log((i+1), "+")
 
 }
-console.log("sum of first" + n + "natural numbers is" + sum)
+console.log("sum of first" + n + "natural numbers is " + sum)
+// Same program but for factorial
+let factorial = 0;
+let n = prompt()
+n = Number.parseInt(n)
+for (let i = 0; i < n; i++){
+    factorial += ((i+1)*1) //Shorthand property of factorial = factorial + value || (x = x + y)
+}
+console.log(factorial) 
+
+// While & DO-While loops concept
+let n = prompt()
+n = Number.parseInt(n)
+let i = 0
+while (i < n){
+    console.log(i)
+    i++;
+}
+*/
+let n = prompt()
+n = Number.parseInt(n)
+let i = 0
+do{
+    console.log(i)
+    i++;
+}
+while(i<n)
