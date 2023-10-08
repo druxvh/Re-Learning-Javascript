@@ -1,4 +1,8 @@
 console.log("Hello BC");
+/* Data types in Javascript
+NNSSUBO
+Null Number String Symbol Undefined Boolean Object
+*/
 
 // Practise Sets
 
@@ -71,7 +75,6 @@ while (i < n){
     console.log(i)
     i++;
 }
-*/
 let n = prompt()
 n = Number.parseInt(n)
 let i = 0
@@ -80,3 +83,11 @@ do{
     i++;
 }
 while(i<n)
+*/
+
+// Functions
+
+ 
+let a = 403930349;
+let b = "hey"
+console.log(a + b)
