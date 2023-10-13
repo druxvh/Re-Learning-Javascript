@@ -83,7 +83,6 @@ do{
     i++;
 }
 while(i<n)
-*/
 
 // Functions
 
@@ -91,3 +90,15 @@ while(i<n)
 let a = 403930349;
 let b = "hey"
 console.log(a + b)
+*/
+
+// Challenges 
+
+    //Create 2 variables, firstName & lastName ; Concatenate two variables into one called "fullName" & then Log fullName into the console
+
+const firstName = prompt("Your First Name : ")
+const lastName = prompt("Your Last Name : ")
+
+const fullName = firstName + " " + lastName
+
+console.log(fullName)
