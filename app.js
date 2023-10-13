@@ -90,7 +90,6 @@ while(i<n)
 let a = 403930349;
 let b = "hey"
 console.log(a + b)
-*/
 
 // Challenges 
 
@@ -102,3 +101,11 @@ const lastName = prompt("Your Last Name : ")
 const fullName = firstName + " " + lastName
 
 console.log(fullName)
+*/
+    // Create a function that logs out "hi there, linda called"
+
+
+let name = prompt("Name")
+let greeting = "Hi there,"
+
+console.log(greeting, name, "tried to call you!")
