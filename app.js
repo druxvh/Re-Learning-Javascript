@@ -101,11 +101,26 @@ const lastName = prompt("Your Last Name : ")
 const fullName = firstName + " " + lastName
 
 console.log(fullName)
-*/
-    // Create a function that logs out "hi there, linda called"
+// Create a function that logs out "hi there, linda called"
 
 
 let name = prompt("Name")
 let greeting = "Hi there,"
 
 console.log(greeting, name, "tried to call you!")
+
+22
+18
+65
+14 XXX => 59
+4
+1114
+
+let sentence = ["hey", "i'm", "dhruv"]
+let greet = document.querySelector("#greeting")
+console.log(greet)
+for (let i = 0; i < sentence.length; i++) {
+    greet.textContent += sentence[i] + " "
+}
+
+*/
