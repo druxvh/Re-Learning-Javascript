@@ -123,4 +123,62 @@ for (let i = 0; i < sentence.length; i++) {
     greet.textContent += sentence[i] + " "
 }
 
+
+
+let person = {
+    name: "DM",
+    age: 21,
+    country: "India"
+}
+
+function logData() {
+    console.log(person.name, "is", person.age, "years old & lives in", person.country)
+}
+
+logData()
+
+
+let countries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
+countries.pop()
+countries.push("Pakistan")
+countries.shift()
+countries.unshift("China")
+// countries.pop()
+
+for (let i = 0; i < countries.length; i++) {
+    console.log("- " + countries[i]) // 'i' is just a looping number getting added into the countries array and because of the looping number we can see the countries name within the array -> its like array[i] -> array[1] then array[2] etc...
+}
+// China Pakistan
+// console.log()
+
+
+
+//random property from an array
+
+let hands = ["rock","paper","scissors"]
+function getHand() {
+    let random = Math.floor(Math.random() * 3)
+    return hands[random]
+}
+
+console.log(getHand())
 */
+        // Sorting function is JS
+let fruits = ["🍎", "🍎", "🍊", "🍊", "🍎", "🍊", "🍎"]
+let appleShelf = document.getElementById("apples")
+let orangeShelf = document.getElementById("oranges")
+
+function sort(){
+    for (let i = 0; i < fruits.length; i++){
+        if (fruits[i] === "🍎") {
+            appleShelf.textContent += "🍎"
+        } else if (fruits[i] === "🍊") {
+            orangeShelf.textContent += "🍊"
+        }
+    }
+}
+sort()
+
+console.log(fruits)
+console.log(appleShelf)
+console.log(orangeShelf)
