@@ -11,6 +11,12 @@
     border: 1px solid black;
     /* text-align: center; */
 }
+#apples:hover , #oranges:hover  {
+    background-color: #fff;
+    /* color: #fff; */
+}
+
+
 
 .shelf {
     display: flex;
