@@ -162,8 +162,7 @@ function getHand() {
 }
 
 console.log(getHand())
-*/
-        // Sorting function is JS
+// Sorting function is JS
 let fruits = ["🍎", "🍎", "🍊", "🍊", "🍎", "🍊", "🍎"]
 let appleShelf = document.getElementById("apples")
 let orangeShelf = document.getElementById("oranges")
@@ -182,3 +181,21 @@ sort()
 console.log(fruits)
 console.log(appleShelf)
 console.log(orangeShelf)
+*/
+
+
+            //Asynchronous Javascript-->
+
+        // Callback Function --> forming relationships between functions is called a callback!
+
+        let order = (call_parameter) => {
+            console.log("order working")
+            call_parameter()
+        }
+        let call = () =>{
+            console.log("call function working withing order function")
+            
+        }
+        order(call) //call_parameter is a parameter can be replaced with whatever function we want to (forms a relationship)
+
+        
