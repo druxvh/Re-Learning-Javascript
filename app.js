@@ -194,8 +194,10 @@ console.log(orangeShelf)
         }
         let call = () =>{
             console.log("call function working withing order function")
+            setTimeout(()=>{
+                console.log("msg show after 10 sec")
+            },10000)
             
         }
         order(call) //call_parameter is a parameter can be replaced with whatever function we want to (forms a relationship)
 
-        
