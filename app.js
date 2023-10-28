@@ -181,7 +181,6 @@ sort()
 console.log(fruits)
 console.log(appleShelf)
 console.log(orangeShelf)
-*/
 
 
             //Asynchronous Javascript-->
@@ -200,4 +199,11 @@ console.log(orangeShelf)
             
         }
         order(call) //call_parameter is a parameter can be replaced with whatever function we want to (forms a relationship)
+*/
+var a = 5;
+function fn(){
+    console.log(a)
+    var a = 9;
+}
 
+fn()
